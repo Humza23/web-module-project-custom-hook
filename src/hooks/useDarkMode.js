@@ -2,7 +2,7 @@
 import useLocalStorage from './useLocalStorage.js'
 
 const useDarkMode = (initialValue) => {
-    const [someValue, setSomeValue] = useLocalStorage('form', initialValue )
+    const [someValue, setSomeValue] = useLocalStorage('dark', initialValue )
 
     return ([someValue,setSomeValue])
 }
