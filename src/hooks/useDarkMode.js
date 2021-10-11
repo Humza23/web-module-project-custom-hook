@@ -2,9 +2,9 @@
 import useLocalStorage from './useLocalStorage.js'
 
 const useDarkMode = (initialValue) => {
-    const [someValue, setSomeValue] = useLocalStorage('dark', initialValue )
+    const [darkValue, setDarkValue] = useLocalStorage('dark', initialValue )
 
-    return ([someValue,setSomeValue])
+    return ([darkValue,setDarkValue])
 }
 
 export default useDarkMode;
